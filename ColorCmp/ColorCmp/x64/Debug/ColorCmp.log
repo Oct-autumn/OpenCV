@@ -1,2 +1,5 @@
 ﻿  main.cpp
-  ColorCmp.vcxproj -> D:\UserData\Documents\GitHub\OpenCV\ColorCmp\x64\Debug\ColorCmp.exe
+D:\MyDocuments\GitHub\OpenCV\ColorCmp\ColorCmp\main.cpp(12,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\MyDocuments\GitHub\OpenCV\ColorCmp\ColorCmp\main.cpp(13,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\MyDocuments\GitHub\OpenCV\ColorCmp\ColorCmp\main.cpp(14,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  ColorCmp.vcxproj -> D:\MyDocuments\GitHub\OpenCV\ColorCmp\x64\Debug\ColorCmp.exe
