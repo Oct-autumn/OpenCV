@@ -1,3 +1,6 @@
 
-.vs
+# 忽略.vs目录
+.vs/
+
+# 忽略OpenCV_Set.props（OpenCV开发环境设置文件）
 OpenCV_Set.props
