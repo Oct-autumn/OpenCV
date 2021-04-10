@@ -1,3 +1,13 @@
 ﻿  main.cpp
-D:\MyDocuments\GitHub\OpenCV\PixelOp\PixelOp\main.cpp(27,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  PixelOp.vcxproj -> D:\MyDocuments\GitHub\OpenCV\PixelOp\x64\Debug\PixelOp.exe
+D:\UserData\Documents\GitHub\OpenCV\PixelOp\PixelOp\main.cpp(28,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\UserData\Documents\GitHub\OpenCV\PixelOp\PixelOp\main.cpp(157,30): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\UserData\Documents\GitHub\OpenCV\PixelOp\PixelOp\main.cpp(158,28): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  PixelOp.vcxproj -> D:\UserData\Documents\GitHub\OpenCV\PixelOp\x64\Debug\PixelOp.exe
