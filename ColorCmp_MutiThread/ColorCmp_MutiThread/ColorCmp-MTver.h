@@ -9,18 +9,21 @@ public:
 	int ThreadCount = 1;
 	int BlockSize = 127;
 
-	void SetConst(int tc = 1, int bs = 127);	//常量设定函数
-
-	static bool DetcetColor(Vec3b TargetColor);
-
-	ColorDect_MTver(Mat* input, Mat* output, Vec3b Color)
+	ColorDect_MTver(Mat* input, Mat* output, Vec3b Color, int delta)
 	{
 		ImgIn = input;
 		ImgOut = output;
 		TargetColor = Color;
+		Delta = delta;
 	}
+
+	void SetConst(int tc = 1, int bs = 127);	//常量设定函数
+
+	bool DetcetColor();
+
+	Mat GetResult();
 private:
 	Mat *ImgIn, *ImgOut;
 	Vec3b TargetColor;
-	Mat ColorDector_T();
+	int Delta = 1000;
 };

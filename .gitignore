@@ -4,3 +4,5 @@
 
 # 忽略OpenCV_Set.props（OpenCV开发环境设置文件）
 OpenCV_Set.props
+*.props
+*.props

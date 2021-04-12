@@ -1,9 +1,8 @@
 ﻿  ColorCmp-MTver.cpp
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(22,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(23,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(24,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\UserData\Documents\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(22,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\UserData\Documents\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(23,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\UserData\Documents\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(24,50): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\UserData\Documents\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(54,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::thread::id”
   main.cpp
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\main.cpp(40,2): error C2361: “default”标签跳过“ColorDect1”的初始化操作
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\main.cpp(31): message : 参见“ColorDect1”的声明
   正在生成代码...
-D:\MyDocuments\GitHub\OpenCV\ColorCmp_MutiThread\ColorCmp_MutiThread\ColorCmp-MTver.cpp(33): error C4716: “ColorDect_MTver::ColorDector_T”: 必须返回一个值
+  ColorCmp_MutiThread.vcxproj -> D:\UserData\Documents\GitHub\OpenCV\ColorCmp_MutiThread\x64\Debug\ColorCmp_MutiThread.exe
