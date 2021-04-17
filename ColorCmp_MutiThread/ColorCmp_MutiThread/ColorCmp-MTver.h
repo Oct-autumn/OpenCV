@@ -9,10 +9,9 @@ public:
 	int ThreadCount = 1;
 	int BlockSize = 127;
 
-	ColorDect_MTver(Mat* input, Mat* output, Vec3b Color, int delta)
+	ColorDect_MTver(Mat* input, Vec3b Color, int delta)
 	{
 		ImgIn = input;
-		ImgOut = output;
 		TargetColor = Color;
 		Delta = delta;
 	}
@@ -23,7 +22,7 @@ public:
 
 	Mat GetResult();
 private:
-	Mat *ImgIn, *ImgOut;
+	Mat *ImgIn, ImgOut;
 	Vec3b TargetColor;
 	int Delta = 1000;
 };
